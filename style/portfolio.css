@@ -10,9 +10,8 @@ background-color: #824f58; */
 
 body {
   font-family: var(--default-font-family);
-  color: #efd0d5;
+  color: var(--branding-color);
   line-height: 1.5;
-  text-align: center;
 }
 
 h1 {
@@ -22,9 +21,15 @@ h1 {
   margin: 20px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 .hero {
   background: var(--branding-color);
+  color: var(--secondary-color);
   margin: 0;
+  text-align: center;
 }
 
 .my-face {
@@ -34,9 +39,39 @@ h1 {
 }
 
 .btn-branding {
-  background: #efd0d5;
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 2px;
-  color: #9a2f3f;
+  color: var(--branding-color);
   font-size: 18px;
-  padding: 12px;
+
+  padding: 12px 24px;
+}
+
+.btn-branding-outline {
+  background: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 2px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  padding: 12px 24px;
+}
+
+.project-description {
+  padding: 20px 10px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
