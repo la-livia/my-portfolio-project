@@ -31,60 +31,84 @@
   </head>
   <body>
     <div class="hero">
-      <h1>Lívia Laczová</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h1>Lívia Laczová</h1>
+            <h2>Junior front-end developer based in Slovakia</h2>
 
-      <img src="images/Livia Laczova.jpg" class="my-face" />
-      <h2 class="m-4">Front-end developer based in Slovakia</h2>
-      <a href="#" class="btn btn-branding m-4">Contact me</a>
-    </div>
-
-    <p class="m-5 text-center">My coding projects so far</p>
-
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="images/vonnegut-project.jpg" class="img-fluid" />
-        </div>
-
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Kurt Vonnegut Fan Page</h2>
-            <p class="mb-3">
-              My first ever coding project incorporates HTML, CSS, JavaScript,
-              everything I learned in the first SheCodes Basics course.
-            </p>
             <a
-              href="https://www.shecodes.io/workshops/shecodes-basics-3dc02b57-7a59-44fd-ac6b-1101ed309bcf/projects/1096677"
-              target="_blank"
-              class="btn btn-branding-outline"
-              >See for yourself
-            </a>
+              href="/contact.html"
+              class="btn btn-branding m-4 shadow-sm rounded"
+              title="Contact Livia"
+              >Contact me</a
+            >
+
+            <a
+              href="/work.html"
+              class="btn btn-branding m-4 shadow-sm rounded"
+              title="View Livia's Work projects"
+              >View my work</a
+            >
+          </div>
+
+          <div class="col-md-5">
+            <img
+              src="images/Livia Laczova.jpg"
+              alt="Picture of Livia"
+              class="img-fluid d-none d-sm-block m-5 my-face"
+            />
           </div>
         </div>
       </div>
+    </div>
+    <h3 class="m-5 text-center">Coding Projects</h3>
+    <div class="container content-section">
       <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Weather Project</h2>
-            <p class="mb-3">
-              My first ever coding project incorporates HTML, CSS, JavaScript,
-              everything I learned in the first SheCodes Basics course.
-            </p>
-            <a
-              href="https://www.shecodes.io/workshops/shecodes-plus-ba187345-7964-4eb6-a662-b7b329653931/projects/1218221"
-              target="_blank"
-              class="btn btn-branding-outline"
-              >See for yourself
-            </a>
-          </div>
+        <div class="col-md-4">
+          <h5>Kurt Vonnegut Fan Page</h5>
+          <a href="#" target="_blank" title="Kurt Vonnegut Fan Page">
+            <img
+              src="images/vonnegut-project.jpg"
+              alt="Landing page Kurt Vonnegut Fan Page"
+              class="img-fluid p-2 mb-5 shadow-sm rounded"
+              title="Landing page Kurt Vonnegut Fan Page"
+            />
+          </a>
         </div>
-        <div class="col d-none d-lg-block">
-          <img src="images/weather-project.jpg" class="img-fluid" />
+        <div class="col-md-4">
+          <h5>Vanilla JS Weather App</h5>
+          <a href="#" target="_blank" title="Landing page Weather App">
+            <img
+              src="images/weather-project.jpg"
+              alt="Landing page Weather App"
+              class="img-fluid p-2 mb-5 shadow-sm rounded"
+              title="Landing page Weather App"
+            />
+          </a>
         </div>
       </div>
     </div>
 
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-solid fa-envelope"></i>
+    <footer class="container">
+      <div class="social-links">
+        <a href="/contact.html" title="Contact Livia"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/l%C3%ADvia-laczov%C3%A1-282400199/"
+          target="_blank"
+          title="View Livia's LinkedIn Page"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/la-livia"
+          target="_blank"
+          title="View Livia's open-source code on GitHub"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <h6><a href="#" target="_blank">Open-source code</a> by Lívia Laczová</h6>
+    </footer>
   </body>
 </html>
