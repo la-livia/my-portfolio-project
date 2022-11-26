@@ -81,6 +81,11 @@ p {
   padding: 20px 10px;
 }
 
+.project-outline {
+  border-top: 5px solid var(--branding-color);
+  border-bottom: 5px solid var(--branding-color);
+}
+
 a {
   color: var(--branding-color);
   transition: all 100ms ease-in-out;
