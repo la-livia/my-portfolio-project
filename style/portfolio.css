@@ -9,17 +9,7 @@ body {
   font-family: var(--default-font-family);
   color: var(--text-color);
   line-height: 1.5;
-}
-
-h1 {
-  font-weight: 900;
-  font-size: 82px;
-  margin: 20px;
-  padding: 20px 0;
-}
-
-h2 {
-  font-size: 44px;
+  font-weight: 400;
 }
 
 a {
@@ -30,14 +20,37 @@ a {
 .hero {
   background: var(--background-color);
   color: var(--branding-color);
-  margin: 20px 0;
-  padding: 20px 0;
   text-align: center;
+  padding: 160px 20px;
 }
 
-.my-face {
-  max-width: 20%;
-  border-radius: 50%;
+.hero h1 {
+  font-weight: 900;
+  font-size: 96px;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.hero h2 {
+  font-size: 38px;
+}
+
+.btn-branding {
+  background: #e7eaf6;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 15px 30px;
+  font-weight: 500;
+}
+
+.btn-branding-outline {
+  background: var(--branding-color);
+  color: var(--background-color);
+  border-radius: 2px;
+  font-size: 18px;
+  padding: 12px 24px;
 }
 
 .my-face-about {
@@ -47,22 +60,6 @@ a {
 
 .about-section {
   border-color: var(--branding-color);
-}
-
-.btn-branding {
-  background: var(--background-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 10px;
-  font-size: 18px;
-  padding: 12px 24px;
-}
-
-.btn-branding-outline {
-  background: var(--background-color);
-  color: var(--branding-color);
-  border-radius: 2px;
-  font-size: 18px;
-  padding: 12px 24px;
 }
 
 .project-description {
