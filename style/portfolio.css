@@ -49,10 +49,6 @@ h4 {
   font-size: 38px;
 }
 
-p {
-  text-align: justify;
-}
-
 .content {
   background: var(--branding-color);
   color: var(--background-color);
@@ -74,7 +70,7 @@ p {
 .portrait {
   border-radius: 10%;
   max-width: 80%;
-  max-height: 80%;
+  height: auto;
 }
 
 .project-description {
@@ -86,6 +82,15 @@ p {
   border-bottom: 5px solid var(--branding-color);
 }
 
+.even {
+  height: 550px;
+  width: 650px;
+  object-fit: cover;
+}
+
+.technologies {
+  text-align: center;
+}
 a {
   color: var(--branding-color);
   transition: all 100ms ease-in-out;
