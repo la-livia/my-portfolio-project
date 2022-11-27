@@ -30,6 +30,11 @@ body {
   font-size: 38px;
 }
 
+.hero a:hover {
+  text-decoration: none;
+  background: var(--text-color);
+}
+
 .btn-branding {
   background: white;
   border: 1px solid var(--branding-color);
@@ -38,6 +43,7 @@ body {
   font-size: 18px;
   padding: 15px 30px;
   font-weight: 500;
+  margin-right: 30px;
 }
 
 h2,
@@ -79,7 +85,7 @@ h4 {
 }
 
 .project-description {
-  padding: 20px 10px;
+  padding: 20px 5px;
 }
 
 .project-outline {
@@ -106,6 +112,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 footer {
   background: var(--text-color);
   color: var(--branding-color);
