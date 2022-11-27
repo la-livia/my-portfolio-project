@@ -91,9 +91,14 @@ h4 {
 .technologies {
   text-align: center;
 }
+
 a {
-  color: var(--branding-color);
+  color: var(--backround-color);
   transition: all 100ms ease-in-out;
+  text-align: center;
+}
+
+a:hover {
 }
 
 @media (max-width: 960px) {
