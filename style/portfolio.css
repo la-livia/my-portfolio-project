@@ -16,7 +16,7 @@ body {
   background: var(--background-color);
   color: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero h1 {
@@ -73,6 +73,11 @@ h4 {
   height: auto;
 }
 
+.logo {
+  max-width: 35%;
+  max-height: 35%;
+}
+
 .project-description {
   padding: 20px 10px;
 }
@@ -125,10 +130,6 @@ footer .social-links a {
 }
 
 @media (max-width: 960px) {
-  .hero {
-    padding: 80px 20px;
-  }
-
   h1 {
     font-size: 52px;
   }
