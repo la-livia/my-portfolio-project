@@ -77,6 +77,8 @@ h4 {
   border-radius: 10%;
   max-width: 80%;
   height: auto;
+  position: relative;
+  top: 40px;
 }
 
 .logo {
@@ -100,7 +102,7 @@ h4 {
 
 .even {
   height: auto;
-  width: 500px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -159,10 +161,11 @@ footer .social-links a {
   }
 
   .content {
-    padding: 0;
+    padding: 80px 0;
   }
 
   .project-description {
     padding: 0;
+    text-align: justify;
   }
 }
