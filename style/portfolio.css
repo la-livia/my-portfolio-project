@@ -139,6 +139,7 @@ footer .social-links a {
 
 .contacts p {
   font-size: 28px;
+  color: var(--text-color);
 }
 
 .contacts a {
@@ -158,6 +159,10 @@ footer .social-links a {
 
   h2 {
     font-size: 32px;
+  }
+
+  .hero .btn-branding {
+    margin-bottom: 20px;
   }
 
   .content {
