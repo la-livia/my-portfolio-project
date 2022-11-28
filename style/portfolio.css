@@ -92,6 +92,7 @@ h4 {
 
 .project-description {
   padding: 20px 5px;
+  text-align: justify;
 }
 
 .project-description a:hover {
