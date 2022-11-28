@@ -165,7 +165,11 @@ footer .social-links a {
   }
 
   .project-description {
-    padding: 0;
     text-align: justify;
+  }
+
+  .project-description .btn-branding {
+    display: block;
+    margin: 0 auto;
   }
 }
