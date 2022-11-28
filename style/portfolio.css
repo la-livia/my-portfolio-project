@@ -88,6 +88,11 @@ h4 {
   padding: 20px 5px;
 }
 
+.project-description a:hover {
+  text-decoration: none;
+  background: var(--branding-color);
+}
+
 .project-outline {
   border-top: 5px solid var(--branding-color);
   border-bottom: 5px solid var(--branding-color);
@@ -97,20 +102,6 @@ h4 {
   height: auto;
   width: 500px;
   object-fit: cover;
-}
-
-.technologies {
-  text-align: center;
-}
-
-a {
-  color: var(--background-color);
-  transition: all 100ms ease-in-out;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 footer {
@@ -124,6 +115,7 @@ footer {
 footer a {
   color: var(--branding-color);
   transition: all 100ms ease-in-out;
+  text-decoration: none;
 }
 
 footer a:hover {
@@ -134,6 +126,27 @@ footer a:hover {
 footer .social-links a {
   margin: 0 20px;
   font-size: 24px;
+}
+
+.contacts {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  color: var(--background-color);
+}
+
+.contacts p {
+  font-size: 28px;
+}
+
+.contacts a {
+  color: var(--background-color);
+  transition: all 100ms ease-in-out;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 960px) {
